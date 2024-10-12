@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benim Sitem</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bloguma Hoşgeldiniz!</h1>
+    </header>
+
+    <section id="cards">
+        <div class="card-container">
+            <div class="card">
+                <h2>Hakkımda</h2>
+                <p>Ben Talha Eren Araz. Düzce Üniversitesi Bilgisayar Mühendisliği 1. Sınıf öğrencisiyim. Hayatının büyük bir bölümünü Bursa'da geçirdim. 20 Yaşındayım. Üzerinde çalıştığım projeleri ve ya içinde bulunduğum projeleri zaman zaman bu sayfada sizlerle paylaşmayı hedefliyorum.</p>
+
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <h2>Projelerim</h2>
+                <p>Mevcut durumda herhangi bir projem bulunmamakta.</p>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <div class="card">
+                <h2>İletişim</h2>
+
+                <a href="https://www.instagram.com/talhaaraz_/">İnstagram</a>
+                <br>
+                <a href="https://github.com/takaindidenize?tab=overview&from=2024-09-01&to=2024-09-03">Github</a>
+                <br>
+                <a href="https://www.linkedin.com/in/talha-eren-araz-655b9032a/">LinkedIn</a>         
+               </div>
+        </div>
+    </section>
+
+    <section class="photo-section">
+        <img src=".img/reklam.jpeg" alt="Tek Fotoğraf" />
+    </section>
+
+    <section id="anket">
+        <h2>Anket</h2>
+        <form id="survey-form">
+            <div class="survey-item">
+                <label>Sitemin tasarımı sizce yeterli mi?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="soru1" value="Evet" required>Evet</label>
+                    <label><input type="radio" name="soru1" value="Hayır">Hayır</label>
+                </div>
+            </div>
+
+            <div class="survey-item">
+                <label>Sitemin içeriği yeterli mi?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="soru2" value="Evet" required>Evet</label>
+                    <label><input type="radio" name="soru2" value="Hayır">Hayır</label>
+                </div>
+            </div>
+
+            <div class="survey-item">
+                <label>Dünya barışı sağlanabilir mi?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="soru3" value="Evet" required>Evet</label>
+                    <label><input type="radio" name="soru3" value="Hayır">Hayır</label>
+                </div>
+            </div>
+
+            <div class="survey-item">
+                <label>Arsenal-Chelsea 2.5üst gol olur mu?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="soru4" value="Evet" required>Evet</label>
+                    <label><input type="radio" name="soru4" value="Hayır">Hayır</label>
+                </div>
+            </div>
+
+            <div class="survey-item">
+                <label>Mutlu musunuz?</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="soru5" value="Evet" required>Evet</label>
+                    <label><input type="radio" name="soru5" value="Hayır">Hayır</label>
+                </div>
+            </div>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+
+    <section id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <h2>Hoş Geldiniz!</h2>
+            <p>Siteme hoş geldiniz. Burada kendimi tanıtıyorum ve bağlantılarımı paylaşıyorum.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Benim Sitem. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
